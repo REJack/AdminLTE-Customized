@@ -1,0 +1,15 @@
+$primary-alt:       $purple-alt;
+$theme-colors-alt: ();
+$theme-colors-alt: map-merge(
+  (
+    "primary":    $primary-alt,
+    "secondary":  $secondary-alt,
+    "success":    $success-alt,
+    "info":       $info-alt,
+    "warning":    $warning-alt,
+    "danger":     $danger-alt,
+    "light":      $light-alt,
+    "dark":       $dark-alt
+  ),
+  $theme-colors-alt
+);
